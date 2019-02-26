@@ -1,7 +1,6 @@
 # Add  code here!
 
-def prime?(number)
-  if number / number == number
-    return true 
-  end
+def prime?(x)
+  {1..x-1}.none? 
+  
 end 
